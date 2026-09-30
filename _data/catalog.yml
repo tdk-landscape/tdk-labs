@@ -1,0 +1,1234 @@
+- title: Quickstart
+  section: General
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/docs/quickstart/
+  description: "| [Core repository](https://github.com/tdk-landscape/tdk-cli-core)
+    | [Examples](https://tdk-landscape.github.io/tdk-website/docs/examples/) |
+    [Notes and gists](#notes-and-gists) | [CI and
+    benchmarks](#ci-and-benchmarks) | [Article
+    index](https://tdk-landscape.github.io/tdk-website/blog/)"
+  lab_ids: []
+- title: TDK website
+  section: Start here
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/
+  description: overview, documentation, and project news. **Official**
+  lab_ids:
+    - 01-installed
+    - 02-scaffold
+- title: Quickstart
+  section: Start here
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/docs/quickstart/
+  description: install TDK and run your first local stack. **Official**
+  lab_ids:
+    - 01-installed
+    - 02-scaffold
+- title: tdk-cli-core
+  section: Start here
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-cli-core
+  description: the main public monorepo for the CLI, Tilt engine, and service
+    discovery. **Official**
+  lab_ids:
+    - 01-installed
+    - 02-scaffold
+- title: CLI quick start and command overview
+  section: Core framework and releases
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-cli-core#quick-start
+  description: install TDK, create a project, scaffold a resource, and run a
+    stack. **Official**
+  lab_ids:
+    - 01-installed
+    - 02-scaffold
+    - 03-backend
+- title: npm package
+  section: Core framework and releases
+  classification: Official
+  url: https://www.npmjs.com/package/@tdk-landscape/tdk-cli-core
+  description: install the TDK CLI with npm or Bun. **Official**
+  lab_ids:
+    - 01-installed
+    - 02-scaffold
+    - 03-backend
+- title: tdk-cli-releases
+  section: Core framework and releases
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-cli-releases/releases
+  description: prebuilt TDK CLI binaries for supported platforms. **Official**
+  lab_ids:
+    - 01-installed
+    - 02-scaffold
+    - 03-backend
+- title: tdk-landscape.github.io
+  section: Core framework and releases
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-landscape.github.io
+  description: source for the public install site and CLI installer. **Official**
+  lab_ids:
+    - 01-installed
+    - 02-scaffold
+    - 03-backend
+- title: Install script
+  section: Core framework and releases
+  classification: Official
+  url: https://tdk-landscape.github.io/install.sh
+  description: shell installer for the published CLI binary. **Official**
+  lab_ids:
+    - 01-installed
+    - 02-scaffold
+    - 03-backend
+- title: Changelog
+  section: Core framework and releases
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-cli-core/blob/main/CHANGELOG.md
+  description: notable CLI and framework changes. **Official**
+  lab_ids:
+    - 01-installed
+    - 02-scaffold
+    - 03-backend
+- title: tdk-website
+  section: Documentation and reference
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-website
+  description: source for the official documentation and project site. **Official**
+  lab_ids: []
+- title: Examples guide
+  section: Documentation and reference
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/docs/examples/
+  description: walkthroughs of projects built with TDK. **Official**
+  lab_ids: []
+- title: Core repository docs
+  section: Documentation and reference
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-cli-core/tree/main/docs
+  description: detailed framework documentation. **Official**
+  lab_ids: []
+- title: Contributing to tdk-cli-core
+  section: Documentation and reference
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-cli-core/blob/main/CONTRIBUTING.md
+  description: development setup and contribution workflow. **Official**
+  lab_ids: []
+- title: TDK blog
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/
+  description: browse the complete official article library. **Official**
+  lab_ids: []
+- title: We Ran 100 Microservices on a 16GB Laptop. No Kubernetes.
+  section: Learning and articles
+  classification: Community
+  url: https://dev.to/mynameis0d3c53a3/we-ran-100-microservices-on-a-16gb-laptop-no-kubernetes-590e
+  description: TDK overview and reproducible scale benchmark using the 100-service
+    ERP example. **Community**
+  lab_ids: []
+- title: AI Assistants Need Topology
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/ai-assistants-need-topology/
+  description: Why coding assistants behave better when they understand services,
+    boundaries, generated files, and ownership. **Official**
+  lab_ids: []
+- title: From Ticket to Topology
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/from-ticket-to-topology/
+  description: How assistants can work better when user stories connect to actual
+    services and generated context. **Official**
+  lab_ids: []
+- title: Stop Asking AI to Guess Your Architecture
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/stop-asking-ai-to-guess-your-architecture/
+  description: How TDK gives assistants concrete context before they suggest
+    changes in the wrong layer. **Official**
+  lab_ids: []
+- title: The AGENTS.md Advantage
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-agents-md-advantage/
+  description: A practical guide to generated assistant briefings and why they
+    matter in larger repos. **Official**
+  lab_ids: []
+- title: The AI Code Review Context Problem
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-ai-code-review-context-problem/
+  description: Why reviewers and assistants both need a map of generated files and
+    service boundaries. **Official**
+  lab_ids: []
+- title: Why AI Needs Guardrails, Not Theater
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/why-ai-needs-guardrails-not-theater/
+  description: The practical role of generated boundaries, ownership notes, and
+    service maps in AI-assisted coding. **Official**
+  lab_ids: []
+- title: Databases Are Part of the App
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/databases-are-part-of-the-app/
+  description: How local database setup, migrations, and service ownership shape
+    daily developer confidence. **Official**
+  lab_ids: []
+- title: Microservice Sprawl Needs a Workbench
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/microservice-sprawl-needs-a-workbench/
+  description: Why service count becomes manageable only when developers have a
+    coherent local surface. **Official**
+  lab_ids: []
+- title: Microservices Without Local Theater
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/microservices-without-local-theater/
+  description: How to tell the difference between a useful local stack and a
+    fragile demo. **Official**
+  lab_ids: []
+- title: NATS in the Development Loop
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/nats-in-the-development-loop/
+  description: Why event-driven services need local messaging support that
+    developers can see and restart. **Official**
+  lab_ids: []
+- title: Postgres as a First-Class Neighbor
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/postgres-as-a-first-class-neighbor/
+  description: How local database services become less painful when they are part
+    of generated orchestration. **Official**
+  lab_ids: []
+- title: Queues Belong in the Local Story
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/queues-belong-in-the-local-story/
+  description: Why background work and messaging need first-class local support,
+    not production-only mystery. **Official**
+  lab_ids: []
+- title: Service Definitions as Team Contracts
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/service-definitions-as-team-contracts/
+  description: How one service.json can make runtime expectations visible across
+    product and platform work. **Official**
+  lab_ids: []
+- title: The Local Gateway Pattern
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-local-gateway-pattern/
+  description: Why gateways, nginx, and routing deserve generated support in local
+    service landscapes. **Official**
+  lab_ids: []
+- title: The Local System Is a Contract
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-local-system-is-a-contract/
+  description: Why every service should declare how it runs, connects, and
+    participates in the development loop. **Official**
+  lab_ids: []
+- title: The Service Registry as Shared Memory
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-service-registry-as-shared-memory/
+  description: How a service registry helps teams understand what exists, where it
+    runs, and how it connects. **Official**
+  lab_ids: []
+- title: Why One Manifest Matters
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/why-one-manifest-matters/
+  description: The benefits of giving each service one explicit source for local
+    development intent. **Official**
+  lab_ids: []
+- title: Golden Layers for Boring Builds
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/golden-layers-for-boring-builds/
+  description: How shared Docker layers can make generated services faster and
+    easier to reason about. **Official**
+  lab_ids: []
+- title: Counting the Cost of Waiting
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/counting-the-cost-of-waiting/
+  description: Why blocked developers are expensive even before a team buys any
+    extra infrastructure. **Official**
+  lab_ids: []
+- title: The Hidden Price of Cloud Workspaces
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-hidden-price-of-cloud-workspaces/
+  description: Why rented developer environments can solve setup while introducing
+    spend, latency, and governance questions. **Official**
+  lab_ids: []
+- title: The Quiet ROI of Fewer Interruptions
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-quiet-roi-of-fewer-interruptions/
+  description: How reducing setup questions and environment drift returns
+    attention to product work. **Official**
+  lab_ids: []
+- title: When Cloud Development Makes Sense
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/when-cloud-development-makes-sense/
+  description: A fair look at where cloud workspaces help and where local tooling
+    remains simpler. **Official**
+  lab_ids: []
+- title: C4 Diagrams That Do Not Rot
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/c4-diagrams-that-do-not-rot/
+  description: Why architecture diagrams should be generated from the system
+    instead of redrawn after the fact. **Official**
+  lab_ids: []
+- title: Configuration That Explains Itself
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/configuration-that-explains-itself/
+  description: Why generated configs should carry enough structure for humans and
+    assistants to understand them. **Official**
+  lab_ids: []
+- title: Documentation for Humans and Assistants
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/documentation-for-humans-and-assistants/
+  description: Why modern engineering docs need to serve both people reading and
+    agents acting. **Official**
+  lab_ids: []
+- title: The Best Docs Are Rebuilt
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-best-docs-are-rebuilt/
+  description: Why documentation that regenerates from service definitions is
+    easier to trust than a wiki page. **Official**
+  lab_ids: []
+- title: Why Generated Docs Beat Forgotten Docs
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/why-generated-docs-beat-forgotten-docs/
+  description: How generated C4 diagrams and assistant briefings keep
+    documentation closer to the live system. **Official**
+  lab_ids: []
+- title: Hot Reload Is a Trust Feature
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/hot-reload-is-a-trust-feature/
+  description: Why developers keep using local tools only when feedback feels
+    immediate and reliable. **Official**
+  lab_ids: []
+- title: No Kubernetes Before Lunch
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/no-kubernetes-before-lunch/
+  description: Why TDK keeps developers productive without asking every product
+    engineer to become a cluster operator. **Official**
+  lab_ids: []
+- title: Ports Should Not Be Folklore
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/ports-should-not-be-folklore/
+  description: Why local port assignment belongs in generated configuration
+    instead of memory and Slack. **Official**
+  lab_ids: []
+- title: Selective Startup for Big Repos
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/selective-startup-for-big-repos/
+  description: How teams can work on one slice of a system without booting every
+    service every time. **Official**
+  lab_ids: []
+- title: The Laptop Should Tell the Truth
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-laptop-should-tell-the-truth/
+  description: Why local environments should reveal integration problems early
+    instead of hiding them until CI. **Official**
+  lab_ids: []
+- title: The Local Stack as a Product Surface
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-local-stack-as-a-product-surface/
+  description: Why internal developer experience deserves the same care as
+    user-facing workflows. **Official**
+  lab_ids: []
+- title: The Real Meaning of Reproducible
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-real-meaning-of-reproducible/
+  description: What reproducibility should mean for service discovery, ports,
+    credentials, generated files, and startup. **Official**
+  lab_ids: []
+- title: Why Local Feedback Still Wins
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/why-local-feedback-still-wins/
+  description: The case for fast local loops even when cloud development
+    environments look convenient on paper. **Official**
+  lab_ids: []
+- title: Do Not Rewrite Before You Understand
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/do-not-rewrite-before-you-understand/
+  description: Why brownfield modernization starts with discovery, not a heroic
+    platform replacement. **Official**
+  lab_ids: []
+- title: Gradual Adoption Without Drama
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/gradual-adoption-without-drama/
+  description: How teams can bring TDK into an existing repo without stopping
+    product work. **Official**
+  lab_ids: []
+- title: Making Brownfield Code Legible
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/making-brownfield-code-legible/
+  description: How discovery can reveal hidden services, missing manifests, and
+    patterns worth preserving. **Official**
+  lab_ids: []
+- title: The Brownfield Rescue Path
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-brownfield-rescue-path/
+  description: How existing repos can be discovered and gradually shaped into
+    explicit service definitions. **Official**
+  lab_ids: []
+- title: The First Manifest to Write
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-first-manifest-to-write/
+  description: Where to start when turning an existing service into an explicit
+    TDK service definition. **Official**
+  lab_ids: []
+- title: Generated Does Not Mean Disposable
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/generated-does-not-mean-disposable/
+  description: How generated artifacts can become stable, reviewable parts of the
+    engineering system. **Official**
+  lab_ids: []
+- title: MIT License as Product Philosophy
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/mit-license-as-product-philosophy/
+  description: Why open licensing matters when a tool sits in the middle of daily
+    engineering work. **Official**
+  lab_ids: []
+- title: Owning the Output
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/owning-the-output/
+  description: Why teams should be able to keep every generated file if they
+    outgrow the generator. **Official**
+  lab_ids: []
+- title: Standard Files Beat Platform Lock-In
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/standard-files-beat-platform-lock-in/
+  description: Why teams should keep generated output they can read, edit, commit,
+    and carry forward. **Official**
+  lab_ids: []
+- title: The Escape Hatch Is the Product
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-escape-hatch-is-the-product/
+  description: How no-lock-in design makes a developer tool safer to adopt. **Official**
+  lab_ids: []
+- title: The DevOps Case for TDK
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-devops-case-for-tdk/
+  description: How generated local environments keep platform attention closer to
+    production reliability. **Official**
+  lab_ids: []
+- title: The Platform Engineer Case for TDK
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-platform-engineer-case-for-tdk/
+  description: Why platform teams should automate local development instead of
+    becoming laptop support. **Official**
+  lab_ids: []
+- title: A Better Default for Service Teams
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/a-better-default-for-service-teams/
+  description: Why TDK is built for teams that want standard tools, faster
+    feedback, and less local ceremony. **Official**
+  lab_ids: []
+- title: Local First Does Not Mean Local Only
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/local-first-does-not-mean-local-only/
+  description: Why strong local development complements CI, staging, and
+    production instead of replacing them. **Official**
+  lab_ids: []
+- title: The Difference Between Simple and Simplistic
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-difference-between-simple-and-simplistic/
+  description: How TDK tries to reduce local complexity without pretending
+    distributed systems are easy. **Official**
+  lab_ids: []
+- title: Why TDK Does Not Hide the Stack
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/why-tdk-does-not-hide-the-stack/
+  description: TDK exposes standard tools because hiding every detail makes teams
+    weaker when debugging starts. **Official**
+  lab_ids: []
+- title: Why TDK Is Not a Cloud IDE
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/why-tdk-is-not-a-cloud-ide/
+  description: The difference between renting a remote machine and generating a
+    better local development surface. **Official**
+  lab_ids: []
+- title: Terminal UI for Real Work
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/terminal-ui-for-real-work/
+  description: How a focused terminal interface can make a complex service
+    landscape easier to scan. **Official**
+  lab_ids: []
+- title: The CLI as a Calm Interface
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-cli-as-a-calm-interface/
+  description: Why a development CLI should guide without burying engineers under
+    flags and hidden states. **Official**
+  lab_ids: []
+- title: The Product Engineer Case for TDK
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-product-engineer-case-for-tdk/
+  description: How product developers can ship across services without memorizing
+    infrastructure internals. **Official**
+  lab_ids: []
+- title: Why Local Dev Needs Product Design
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/why-local-dev-needs-product-design/
+  description: Internal tools still have users, workflows, friction, and moments
+    where clarity matters. **Official**
+  lab_ids: []
+- title: A Smaller Surface for Mistakes
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/a-smaller-surface-for-mistakes/
+  description: How generated conventions reduce the number of places local setup
+    can quietly drift. **Official**
+  lab_ids: []
+- title: Observability Starts on the Laptop
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/observability-starts-on-the-laptop/
+  description: Why logs, status, health, and service relationships should be
+    visible before staging. **Official**
+  lab_ids: []
+- title: The Difference Between Demo and Daily Driver
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-difference-between-demo-and-daily-driver/
+  description: What separates a local stack that impresses once from one
+    developers trust every day. **Official**
+  lab_ids: []
+- title: When the Stack Should Say No
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/when-the-stack-should-say-no/
+  description: Why good local tooling should fail early, explain clearly, and
+    avoid partial mystery states. **Official**
+  lab_ids: []
+- title: The Spec Is the Map, Not the Terrain
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-spec-is-the-map-not-the-terrain/
+  description: How teams can use specs to reduce ambiguity without confusing
+    written intent for production behavior. **Official**
+  lab_ids: []
+- title: What SDD Cannot Do
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/what-sdd-cannot-do/
+  description: Why specs cannot replace product judgment, architecture tradeoffs,
+    operational feedback, or integration testing. **Official**
+  lab_ids: []
+- title: What SDD Gets Right
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/what-sdd-gets-right/
+  description: "The useful parts of spec-driven development: shared language,
+    reviewable intent, and better AI handoffs. **Official**"
+  lab_ids: []
+- title: When Specs Lie Quietly
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/when-specs-lie-quietly/
+  description: A practical look at stale assumptions, missing edge cases, and the
+    false comfort of tidy requirements. **Official**
+  lab_ids: []
+- title: Why TDK Matters After the Spec
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/why-tdk-matters-after-the-spec/
+  description: A closing argument for pairing spec-driven thinking with a
+    development workbench that can actually run the system. **Official**
+  lab_ids: []
+- title: Local Credentials Without Spreadsheets
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/local-credentials-without-spreadsheets/
+  description: Why developer secrets need managed paths, not tribal knowledge and
+    old setup docs. **Official**
+  lab_ids: []
+- title: Secrets Are Not Onboarding Steps
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/secrets-are-not-onboarding-steps/
+  description: How managed identities reduce the habit of copying credentials
+    through unsafe channels. **Official**
+  lab_ids: []
+- title: MVP Speed Without Throwaway Tooling
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/mvp-speed-without-throwaway-tooling/
+  description: Why fast early product work still deserves a local stack that can
+    survive growth. **Official**
+  lab_ids: []
+- title: The Fast Path to a Useful Demo
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-fast-path-to-a-useful-demo/
+  description: Why a runnable multi-service demo beats screenshots when teams need
+    product feedback. **Official**
+  lab_ids: []
+- title: The Founder Case for TDK
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-founder-case-for-tdk/
+  description: How TDK reduces setup drag so tiny teams spend more time on
+    customer-facing decisions. **Official**
+  lab_ids: []
+- title: A Better First Week for Founding Engineers
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/a-better-first-week-for-founding-engineers/
+  description: How early teams can avoid building local infrastructure from
+    scratch before the product is proven. **Official**
+  lab_ids: []
+- title: Day-One Onboarding for Microservices
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/day-one-onboarding-for-microservices/
+  description: What it should feel like when a new developer joins a service-heavy
+    product team. **Official**
+  lab_ids: []
+- title: Local Tooling and Team Morale
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/local-tooling-and-team-morale/
+  description: Why reliable development environments make engineers more willing
+    to touch unfamiliar services. **Official**
+  lab_ids: []
+- title: New Hire Confidence Is a Feature
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/new-hire-confidence-is-a-feature/
+  description: Why the first successful local boot shapes how quickly people feel
+    useful. **Official**
+  lab_ids: []
+- title: The Cost of Setup Rituals
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-cost-of-setup-rituals/
+  description: How repeated onboarding chores quietly consume product time and
+    make teams afraid to change services. **Official**
+  lab_ids: []
+- title: The End of Setup Archaeology
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-end-of-setup-archaeology/
+  description: Why developers should not have to reconstruct old setup decisions
+    from scripts and memories. **Official**
+  lab_ids: []
+- title: The Problem With Works on My Machine
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-problem-with-works-on-my-machine/
+  description: How reproducible generated environments remove a phrase teams
+    should not need anymore. **Official**
+  lab_ids: []
+- title: Playwright Belongs Near the Stack
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/playwright-belongs-near-the-stack/
+  description: Why end-to-end testing is more useful when the local system is easy
+    to boot and reset. **Official**
+  lab_ids: []
+- title: Testing the System You Actually Run
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/testing-the-system-you-actually-run/
+  description: How local orchestration can make tests reflect real service
+    relationships instead of isolated assumptions. **Official**
+  lab_ids: []
+- title: A Local Registry for Real Teams
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/a-local-registry-for-real-teams/
+  description: Why internal packages and generated clients benefit from a local
+    registry during development. **Official**
+  lab_ids: []
+- title: Bun, Node, and Practical Defaults
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/bun-node-and-practical-defaults/
+  description: How runtime choices should serve developer feedback instead of
+    becoming identity debates. **Official**
+  lab_ids: []
+- title: Code Generation That Stays Inspectable
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/code-generation-that-stays-inspectable/
+  description: How generated files can help teams without becoming an opaque
+    maintenance burden. **Official**
+  lab_ids: []
+- title: Generated Clients Without Guesswork
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/generated-clients-without-guesswork/
+  description: How generated SDK and client surfaces reduce drift between frontend
+    and backend work. **Official**
+  lab_ids: []
+- title: How to Review Generated Infrastructure
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/how-to-review-generated-infrastructure/
+  description: A guide to inspecting generated Docker, Tilt, TypeScript, and
+    config outputs with confidence. **Official**
+  lab_ids: []
+- title: Plain Docker Is Still a Feature
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/plain-docker-is-still-a-feature/
+  description: Why standard generated Docker files are easier to inspect, debug,
+    and keep than opaque platform magic. **Official**
+  lab_ids: []
+- title: Prisma in a Generated Stack
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/prisma-in-a-generated-stack/
+  description: Where ORM setup fits when service definitions generate development
+    infrastructure. **Official**
+  lab_ids: []
+- title: Starlark for Repeatable Local Rules
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/starlark-for-repeatable-local-rules/
+  description: Why small deterministic orchestration rules can beat a pile of
+    custom shell scripts. **Official**
+  lab_ids: []
+- title: tdk doctor as Team Memory
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/tdk-doctor-as-team-memory/
+  description: How health checks can replace long troubleshooting threads with
+    actionable local diagnostics. **Official**
+  lab_ids: []
+- title: The Case for Verdaccio
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-case-for-verdaccio/
+  description: How a local package registry supports service-heavy TypeScript
+    development. **Official**
+  lab_ids: []
+- title: The Discipline of Boring Defaults
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-discipline-of-boring-defaults/
+  description: Why teams move faster when generated defaults are predictable,
+    readable, and unexciting. **Official**
+  lab_ids: []
+- title: The Problem With Perfect Templates
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-problem-with-perfect-templates/
+  description: Why templates help only when they keep matching the system after
+    the first generation. **Official**
+  lab_ids: []
+- title: Tilt Without the Cluster Tax
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/tilt-without-the-cluster-tax/
+  description: How TDK uses Tilt and Starlark for local orchestration without
+    forcing Kubernetes concepts into every task. **Official**
+  lab_ids: []
+- title: Traefik Without Mystery
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/traefik-without-mystery/
+  description: How generated routing config can make local service URLs
+    predictable. **Official**
+  lab_ids: []
+- title: Vite Everywhere It Helps
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/vite-everywhere-it-helps/
+  description: How consistent Vite usage can make frontend, backend, SDK, and
+    library workflows easier to reason about. **Official**
+  lab_ids: []
+- title: From Empty Repo to Working Landscape
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/from-empty-repo-to-working-landscape/
+  description: How a service landscape forms when definitions, generated
+    artifacts, and local orchestration line up. **Official**
+  lab_ids: []
+- title: From Product Intent to Runnable Services
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/from-product-intent-to-runnable-services/
+  description: How TDK turns service definitions into local systems developers can
+    actually inspect and run. **Official**
+  lab_ids: []
+- title: Frontend and Backend in One Loop
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/frontend-and-backend-in-one-loop/
+  description: Why product work moves faster when UI, API, and generated clients
+    update together. **Official**
+  lab_ids: []
+- title: The Practical Beauty of One Command
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/the-practical-beauty-of-one-command/
+  description: Why one reliable command can be more valuable than a thick setup
+    guide. **Official**
+  lab_ids: []
+- title: What Belongs in CI After TDK
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/what-belongs-in-ci-after-tdk/
+  description: How local reproducibility changes what teams expect from continuous
+    integration. **Official**
+  lab_ids: []
+- title: Why Big Repos Need Small Rituals
+  section: Learning and articles
+  classification: Official
+  url: https://tdk-landscape.github.io/tdk-website/blog/articles/why-big-repos-need-small-rituals/
+  description: How simple repeated commands can hold a large service graph
+    together. **Official**
+  lab_ids: []
+- title: TDK demo animation
+  section: Learning and articles
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-demo-animation
+  description: source for a short visual tour of the CLI workflow and generated
+    project ([view the
+    animation](https://tdk-landscape.github.io/tdk-demo-animation/)).
+    **Official**
+  lab_ids: []
+- title: tdk-example
+  section: Examples and demo applications
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-example
+  description: small project demonstrating the Project-Stack-Resource model. **Official**
+  lab_ids: []
+- title: tdk-saas-starter
+  section: Examples and demo applications
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-saas-starter
+  description: SaaS dashboard starter with a working checkout flow. **Official**
+  lab_ids: []
+- title: tdk-restaurant-example
+  section: Examples and demo applications
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-restaurant-example
+  description: restaurant operations example covering reservations, kitchen
+    pacing, menu availability, and floor control. **Official**
+  lab_ids: []
+- title: tdk-ecommerce-example
+  section: Examples and demo applications
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-ecommerce-example
+  description: Vue storefront and Hono catalog API built with TDK. **Official**
+  lab_ids: []
+- title: tdk-erp-system
+  section: Examples and demo applications
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-erp-system
+  description: 100-service ERP fixture across seven business domains, used for
+    scale testing. **Official**
+  lab_ids: []
+- title: create-tdk-stack
+  section: Starters and scaffolding
+  classification: Official
+  url: https://github.com/tdk-landscape/create-tdk-stack
+  description: starter generator and landing page for creating a TDK stack. **Official**
+  lab_ids: []
+- title: More example repositories
+  section: Starters and scaffolding
+  classification: Official
+  url: https://github.com/tdk-landscape?tab=repositories&q=example
+  description: browse public TDK example repositories. **Official**
+  lab_ids: []
+- title: Node.js
+  section: Tools and technologies
+  classification: Official
+  url: https://nodejs.org/en
+  description: required runtime when installing the CLI from npm; prebuilt
+    binaries are also available. **Core runtime**
+  lab_ids: []
+- title: Bun
+  section: Tools and technologies
+  classification: Official
+  url: https://bun.sh/docs
+  description: supported CLI installer and runtime/package tool used by generated
+    services. **Core and generated apps**
+  lab_ids: []
+- title: npm
+  section: Tools and technologies
+  classification: Official
+  url: https://docs.npmjs.com/
+  description: publishes and installs the TDK CLI package; generated services can
+    use a local registry. **Core and optional service**
+  lab_ids: []
+- title: TypeScript
+  section: Tools and technologies
+  classification: Official
+  url: https://www.typescriptlang.org/docs/
+  description: implementation language for the CLI and generated service
+    configuration. **Core and generated apps**
+  lab_ids: []
+- title: Starlark
+  section: Tools and technologies
+  classification: Official
+  url: https://github.com/bazelbuild/starlark
+  description: language used by the Tilt topology and resource generators. **Core engine**
+  lab_ids: []
+- title: Bash
+  section: Tools and technologies
+  classification: Official
+  url: https://savannah.gnu.org/projects/bash/
+  description: used by install, release, and generated container scripts. **Core scripts**
+  lab_ids: []
+- title: Vite
+  section: Tools and technologies
+  classification: Official
+  url: https://vite.dev/
+  description: generated frontend development and build configuration. **Generated apps**
+  lab_ids: []
+- title: React
+  section: Tools and technologies
+  classification: Official
+  url: https://react.dev/
+  description: default frontend framework and the rendering foundation for TDK's
+    terminal interface. **Core and generated apps**
+  lab_ids: []
+- title: Vue
+  section: Tools and technologies
+  classification: Official
+  url: https://vuejs.org/
+  description: supported frontend framework, also used in official ecommerce and
+    identity examples. **Generated apps and examples**
+  lab_ids: []
+- title: Hono
+  section: Tools and technologies
+  classification: Official
+  url: https://hono.dev/
+  description: TypeScript web framework used for backend APIs in official
+    examples. **Examples**
+  lab_ids: []
+- title: Ink
+  section: Tools and technologies
+  classification: Official
+  url: https://github.com/vadimdemedes/ink
+  description: React components for the interactive CLI interface. **Core CLI**
+  lab_ids: []
+- title: Commander.js
+  section: Tools and technologies
+  classification: Official
+  url: https://github.com/tj/commander.js
+  description: command and option parsing for the `tdk` CLI. **Core CLI**
+  lab_ids: []
+- title: Handlebars
+  section: Tools and technologies
+  classification: Official
+  url: https://handlebarsjs.com/
+  description: templates used to generate service files and configuration. **Core
+    generator**
+  lab_ids: []
+- title: Docker
+  section: Tools and technologies
+  classification: Official
+  url: https://docs.docker.com/
+  description: builds and runs the local service containers. **Core requirement**
+  lab_ids: []
+- title: Docker Desktop
+  section: Tools and technologies
+  classification: Official
+  url: https://www.docker.com/products/docker-desktop/
+  description: ", [OrbStack](https://orbstack.dev/), and
+    [Colima](https://github.com/abiosoft/colima): supported local Docker
+    environments for macOS development. **Docker options**"
+  lab_ids: []
+- title: Docker Compose
+  section: Tools and technologies
+  classification: Official
+  url: https://docs.docker.com/compose/
+  description: describes supporting services and local infrastructure. **Core and examples**
+  lab_ids: []
+- title: Tilt
+  section: Tools and technologies
+  classification: Official
+  url: https://docs.tilt.dev/
+  description: orchestrates the landscape and provides the live development loop.
+    **Core requirement**
+  lab_ids: []
+- title: Traefik
+  section: Tools and technologies
+  classification: Official
+  url: https://doc.traefik.io/traefik/
+  description: routes local traffic to services through stable development URLs.
+    **Core service**
+  lab_ids: []
+- title: PostgreSQL
+  section: Tools and technologies
+  classification: Official
+  url: https://www.postgresql.org/docs/
+  description: default local database service. **Core service**
+  lab_ids: []
+- title: Prisma
+  section: Tools and technologies
+  classification: Official
+  url: https://www.prisma.io/docs
+  description: opt-in schema, client, and migration workflow for backend
+    resources. **Optional generator**
+  lab_ids: []
+- title: NATS
+  section: Tools and technologies
+  classification: Official
+  url: https://docs.nats.io/
+  description: ", including
+    [JetStream](https://docs.nats.io/nats-concepts/jetstream): messaging and
+    persistence demonstrated in TDK's queue example. **Optional service and
+    example**"
+  lab_ids: []
+- title: Debezium
+  section: Tools and technologies
+  classification: Official
+  url: https://debezium.io/documentation/
+  description: optional change data capture from PostgreSQL. **Optional infrastructure**
+  lab_ids: []
+- title: Elasticsearch
+  section: Tools and technologies
+  classification: Official
+  url: https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
+  description: search and storage component in the optional ELK stack. **Optional
+    infrastructure**
+  lab_ids: []
+- title: Logstash
+  section: Tools and technologies
+  classification: Official
+  url: https://www.elastic.co/guide/en/logstash/current/index.html
+  description: collection and processing component in the optional ELK stack.
+    **Optional infrastructure**
+  lab_ids: []
+- title: Kibana
+  section: Tools and technologies
+  classification: Official
+  url: https://www.elastic.co/guide/en/kibana/current/index.html
+  description: exploration interface in the optional ELK stack. **Optional infrastructure**
+  lab_ids: []
+- title: SigNoz
+  section: Tools and technologies
+  classification: Official
+  url: https://signoz.io/docs/
+  description: observability option for metrics, traces, and logs. **Optional
+    infrastructure**
+  lab_ids: []
+- title: Apache SkyWalking
+  section: Tools and technologies
+  classification: Official
+  url: https://skywalking.apache.org/docs/
+  description: alternative observability option listed by TDK. **Optional infrastructure**
+  lab_ids: []
+- title: OpenID Connect
+  section: Tools and technologies
+  classification: Official
+  url: https://openid.net/developers/how-connect-works/
+  description: identity protocol demonstrated by the auth emulator and protected
+    API example. **Example integration**
+  lab_ids: []
+- title: Mailpit
+  section: Tools and technologies
+  classification: Official
+  url: https://mailpit.axllent.org/
+  description: local email capture and inspection in the auth and email example.
+    **Example integration**
+  lab_ids: []
+- title: Verdaccio
+  section: Tools and technologies
+  classification: Official
+  url: https://www.verdaccio.org/docs/installation/
+  description: private local npm registry. Requires a TDK license. **Paid optional service**
+  lab_ids: []
+- title: Sablier
+  section: Tools and technologies
+  classification: Official
+  url: https://sablierapp.dev/
+  description: on-demand service start and stop. Requires a TDK license. **Paid
+    optional service**
+  lab_ids: []
+- title: Biome
+  section: Tools and technologies
+  classification: Official
+  url: https://biomejs.dev/
+  description: linting and formatting in the CLI workspace. **Core development**
+  lab_ids: []
+- title: Vitest
+  section: Tools and technologies
+  classification: Official
+  url: https://vitest.dev/
+  description: unit and integration test runner for the CLI. **Core development**
+  lab_ids: []
+- title: Knip
+  section: Tools and technologies
+  classification: Official
+  url: https://knip.dev/
+  description: detects unused files, exports, and dependencies. **Core development**
+  lab_ids: []
+- title: Playwright
+  section: Tools and technologies
+  classification: Official
+  url: https://playwright.dev/
+  description: browser test configuration available through a licensed TDK
+    extension. **Paid generator**
+  lab_ids: []
+- title: GitHub Actions
+  section: Tools and technologies
+  classification: Official
+  url: https://docs.github.com/actions
+  description: runs CI, quickstart, examples, scale, and release workflows. **Core
+    delivery**
+  lab_ids: []
+- title: GitHub CLI
+  section: Tools and technologies
+  classification: Official
+  url: https://cli.github.com/
+  description: dispatches follow-up CI runs from the repository workflow. **Core delivery**
+  lab_ids: []
+- title: Dependabot
+  section: Tools and technologies
+  classification: Official
+  url: https://docs.github.com/code-security/dependabot
+  description: automated dependency updates for GitHub repositories. **Repository
+    maintenance**
+  lab_ids: []
+- title: GNU Make
+  section: Tools and technologies
+  classification: Official
+  url: https://www.gnu.org/software/make/
+  description: common contributor commands such as `make test` and `make help`.
+    **Core development**
+  lab_ids: []
+- title: pre-commit
+  section: Tools and technologies
+  classification: Official
+  url: https://pre-commit.com/
+  description: local hook runner configured for the core repository. **Core development**
+  lab_ids: []
+- title: Feature reference
+  section: Development, deployment, and observability
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-cli-core/blob/main/docs/FEATURES.md
+  description: project and resource features, including monitoring, ELK, Debezium
+    CDC, and local registry options. **Official**
+  lab_ids: []
+- title: tdk-docker-compose-example
+  section: Development, deployment, and observability
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-docker-compose-example
+  description: run the TDK CLI and its development workflow from Docker Compose.
+    **Official**
+  lab_ids: []
+- title: Security policy
+  section: Security and identity
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-cli-core/blob/main/SECURITY.md
+  description: responsible vulnerability reporting for the core project. **Official**
+  lab_ids: []
+- title: tdk-auth-queue-email-example
+  section: Security and identity
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-auth-queue-email-example
+  description: local identity, queue, and email example with an OIDC emulator,
+    NATS JetStream, and Mailpit. **Official**
+  lab_ids: []
+- title: tdk-user-management
+  section: Security and identity
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-user-management
+  description: identity and user-management demo organized into TDK stacks. **Official**
+  lab_ids: []
+- title: Current CLI extensions
+  section: Extensions and historical projects
+  classification: Official
+  url: https://github.com/tdk-landscape/tdk-cli-core/tree/main/ext
+  description: extension and IDE integration source maintained in the core
+    monorepo. **Official**
+  lab_ids: []
+- title: tdk-discovery
+  section: Extensions and historical projects
+  classification: Archived
+  url: https://github.com/tdk-landscape/tdk-discovery
+  description: "**Archived.** Earlier standalone service-discovery repository;
+    current development is in
+    [tdk-cli-core](https://github.com/tdk-landscape/tdk-cli-core)."
+  lab_ids: []
+- title: tdk-ext
+  section: Extensions and historical projects
+  classification: Archived
+  url: https://github.com/tdk-landscape/tdk-ext
+  description: "**Archived.** Earlier extensions repository; use the current
+    [tdk-cli-core extension
+    documentation](https://github.com/tdk-landscape/tdk-cli-core/tree/main/ext)
+    for current work."
+  lab_ids: []
+- title: tdk
+  section: Extensions and historical projects
+  classification: Archived
+  url: https://github.com/tdk-landscape/tdk
+  description: "**Archived.** Earlier platform specifications and generators
+    repository; consult the current core repository and website for maintained
+    material."
+  lab_ids: []
+- title: TDK organization
+  section: Community and contribution
+  classification: Community
+  url: https://github.com/tdk-landscape
+  description: official public repositories and projects.
+  lab_ids: []
+- title: Organization profile source
+  section: Community and contribution
+  classification: Community
+  url: https://github.com/tdk-landscape/.github/tree/main/profile
+  description: source for the public TDK organization profile.
+  lab_ids: []
+- title: Open an issue on tdk-cli-core
+  section: Community and contribution
+  classification: Community
+  url: https://github.com/tdk-landscape/tdk-cli-core/issues
+  description: ask questions, report a bug, or suggest a framework improvement.
+  lab_ids: []
+- title: Good first issues
+  section: Community and contribution
+  classification: Community
+  url: https://github.com/tdk-landscape/tdk-cli-core/labels/good%20first%20issue
+  description: beginner-friendly ways to contribute to the core project.
+  lab_ids: []

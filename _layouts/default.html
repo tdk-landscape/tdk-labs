@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101014">
+  {% seo %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark">T</span><span>TDK <b>LABS</b></span></a>
+    <nav><a href="{{ '/' | relative_url }}#tracks">Tracks</a><a href="{{ '/catalog/' | relative_url }}">Catalog</a><a href="https://github.com/tdk-landscape/tdk-cli-core">GitHub <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main>{{ content }}</main>
+  <footer class="site-footer"><span>TDK Labs · replay the command, understand the change.</span><a href="https://tdk-landscape.github.io/tdk-website/docs/quickstart/">TDK quickstart ↗</a></footer>
+  <script src="{{ '/assets/js/lab-player.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</body>
+</html>

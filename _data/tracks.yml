@@ -1,0 +1,21 @@
+- id: foundations
+  title: Foundations
+  description: Get oriented, confirm your CLI, and make a project that TDK can understand.
+  catalog_section: Start here, Core
+  labs:
+    - 01-installed
+    - 02-scaffold
+    - 03-backend
+- id: psr
+  title: Project structure
+  description: Learn how projects, stacks, and resources fit together.
+  catalog_section: Docs / core
+  labs:
+    - 02-scaffold
+    - 03-backend
+- id: first-service
+  title: First service
+  description: Create a backend resource and inspect the generated contract.
+  catalog_section: Core CLI
+  labs:
+    - 03-backend

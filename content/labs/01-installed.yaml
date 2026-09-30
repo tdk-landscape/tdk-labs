@@ -1,0 +1,53 @@
+id: 01-installed
+title: Is TDK installed?
+track: foundations
+level: beginner
+duration_min: 5
+cli_version: "1.3.80"
+capture_source: local-source
+capture_verified: true
+capture_date: "2026-10-01"
+capture_environment: "Local TDK CLI source 1.3.80; Docker daemon unavailable; Tilt unavailable"
+mode: replay
+source:
+  catalog: [start-here, core-framework-and-releases]
+  docs: https://tdk-landscape.github.io/tdk-website/docs/quickstart/
+terminal:
+  title: tdk · labs · installed
+  phase: foundations
+steps:
+  - id: version
+    cmd: tdk --version
+    out: |
+      1.3.80
+    explain: Confirm which TDK CLI version is available on your PATH. Each capture records the exact CLI release used.
+    files: []
+  - id: doctor
+    cmd: tdk doctor --no-ping
+    out: |
+      TDK doctor checks your local Docker + Tilt development environment; it does not check cluster deployments.
+
+      🔍 TDK Doctor
+
+      Checking environment...
+
+      ✗ Docker daemon is not responding
+      ℹ Fix: Start Docker Desktop, OrbStack, or Colima, then retry: tdk doctor
+      ✗ Tilt CLI not found
+      ℹ Fix: curl -fsSL https://raw.githubusercontent.com/tilt-dev/tilt/master/scripts/install.sh | bash
+      ✓ HTTP 8080, HTTPS 8443, Postgres 15432
+      ○ Docker not available - skipped ingress port check
+      ○ Docker OS unavailable - daemon failure reported separately
+      ✓ Docker Compose plugin available
+      ✓ Docker Engine 29.5.2 and Compose 5.1.3 support generated healthchecks
+      ○ Not in a project - skipping Bun check
+      ○ Not running in WSL2 - skipped project filesystem check
+      ✓ Docker can create networks
+
+      ✗ Doctor failed. Fix the items above, then run: tdk doctor
+    explain: Doctor checks local prerequisites such as Docker and Tilt. This capture reflects the capture machine's environment, so failures here describe that environment rather than the learner's computer.
+    files: []
+runbook:
+  needs: [Node.js 22.12 or newer, Docker for local stack commands, Tilt for `tdk up`]
+  install: npm install -g @tdk-landscape/tdk-cli-core
+  live: docker run --rm -it --entrypoint sh tdk-landscape/tdk-cli-releases:latest

@@ -1,0 +1,10 @@
+---
+layout: default
+title: Awesome TDK catalog
+description: Browse official, community, and archived TDK learning resources.
+permalink: /catalog/
+---
+<section class="hero"><div class="eyebrow">Awesome TDK · learning index</div><h1>Go deeper.<br><em>Find your source.</em></h1><p class="hero-copy">The catalog points back to official TDK materials and useful community resources. Labs make selected topics hands-on; the catalog remains the index.</p></section>
+<section class="section wrap"><div class="catalog-filter" role="group" aria-label="Filter catalog"><button class="filter-button" data-filter="All" aria-pressed="true">All</button><button class="filter-button" data-filter="Official" aria-pressed="false">Official</button><button class="filter-button" data-filter="Community" aria-pressed="false">Community</button><button class="filter-button" data-filter="Archived" aria-pressed="false">Archived</button></div><div class="catalog-list">
+{% for item in site.data.catalog %}<article class="catalog-card" data-classification="{{ item.classification }}"><span class="badge {{ item.classification | downcase }}">{{ item.classification }}</span><span class="card-meta"> · {{ item.section }}</span><h3><a href="{{ item.url }}">{{ item.title }} ↗</a></h3>{% if item.description %}<p>{{ item.description }}</p>{% endif %}{% for lab_id in item.lab_ids %}<a class="source-line" href="{{ '/labs/' | append: lab_id | append: '/' | relative_url }}">Open lab {{ lab_id }} →</a>{% endfor %}</article>{% endfor %}
+</div></section>

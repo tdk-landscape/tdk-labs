@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdk-landscape.github.io/tdk-labs/schemas/lab.schema.json",
+  "title": "TDK Lab",
+  "type": "object",
+  "required": ["id", "title", "track", "level", "duration_min", "cli_version", "mode", "source", "terminal", "steps", "runbook"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[0-9]{2}-[a-z0-9-]+$" },
+    "title": { "type": "string", "minLength": 1 },
+    "track": { "type": "string", "minLength": 1 },
+    "level": { "enum": ["beginner", "intermediate", "advanced"] },
+    "duration_min": { "type": "integer", "minimum": 1 },
+    "cli_version": { "type": "string" },
+    "mode": { "const": "replay" },
+    "source": { "type": "object", "required": ["catalog", "docs"], "properties": { "catalog": { "type": "array", "items": { "type": "string" } }, "docs": { "type": "string", "format": "uri" } } },
+    "terminal": { "type": "object", "required": ["title", "phase"], "properties": { "title": { "type": "string" }, "phase": { "type": "string" } } },
+    "steps": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["id", "cmd", "out", "explain", "files"], "properties": { "id": { "type": "string" }, "cmd": { "type": "string" }, "out": { "type": "string" }, "explain": { "type": "string" }, "files": { "type": "array", "items": { "type": "string" } } } } },
+    "runbook": { "type": "object", "required": ["needs", "install", "live"], "properties": { "needs": { "type": "array", "items": { "type": "string" } }, "install": { "type": "string" }, "live": { "type": "string" } } }
+  }
+}

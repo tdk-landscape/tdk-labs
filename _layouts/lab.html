@@ -1,0 +1,32 @@
+<section class="hero lab-head wrap">
+  <div class="breadcrumbs"><a href="{{ '/' | relative_url }}">Labs</a> / {{ page.track | replace: '-', ' ' }} / {{ page.lab_id }}</div>
+  <div class="eyebrow">{{ page.track | replace: '-', ' ' }} · {{ page.level }} · {{ page.duration_min }} min</div>
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.steps.first.explain }}</p>
+  <div class="hero-note">REPLAY · TDK CLI {{ page.cli_version }} · {% if page.capture_verified %}CAPTURE VERIFIED{% else %}CAPTURE PENDING{% endif %}</div>
+</section>
+<section class="wrap lab-layout">
+  <div>
+    <tdk-lab-player class="player-shell" data-verified="{{ page.capture_verified }}" aria-label="Replay for {{ page.title }}">
+      <div class="sb-term-col">
+        <div class="sb-term-bar"><span class="sb-term-dot"></span><span class="sb-term-dot"></span><span class="sb-term-dot"></span><span class="sb-term-title">{{ page.terminal.title }}</span><span class="sb-term-status" data-state="idle">idle</span></div>
+        <div class="sb-term-body" tabindex="0" aria-live="polite"><span class="sb-prompt">$</span> <span class="sb-caret"></span></div>
+        <div class="sb-term-controls">
+          <button class="sb-btn sb-btn--accent" data-js="play-all" type="button">Play all</button>
+          <button class="sb-btn" data-js="step" type="button">Step</button>
+          <button class="sb-btn" data-js="reset" type="button">Reset</button>
+          <span class="sb-run-hint">step <b data-pos>0</b>/<span data-total>0</span> · Space step · P play · R reset</span>
+        </div>
+      </div>
+      <script type="application/json">{{ page.steps | jsonify }}</script>
+    </tdk-lab-player>
+    <div class="callout"><strong>Replay, not hosted compute.</strong> The terminal shows captured output. Commands do not execute in this browser, and replaying <code>tdk up</code> does not launch a stack.</div>
+  </div>
+  <aside class="lab-info">
+    <section class="info-panel"><h3>What happened</h3><p data-step-explain>Advance one step to see what happens.</p></section>
+    <section class="info-panel"><h3>Files written</h3><ul class="file-list" data-step-files><li>Advance one step to inspect file changes.</li></ul></section>
+    <section class="info-panel"><h3>Source</h3><p>Based on the official TDK curriculum.</p>{% for catalog_id in page.source.catalog %}<a class="source-line" href="https://github.com/tdk-landscape/awesome-tdk-framework">awesome-tdk · {{ catalog_id | replace: '-', ' ' }} ↗</a>{% endfor %}<a class="source-line" href="{{ page.source.docs }}">TDK documentation ↗</a></section>
+    <section class="info-panel"><h3>Run for real</h3><p>Requires {{ page.runbook.needs | join: ', ' }}.</p><p style="margin:12px 0 6px">Install TDK</p><div class="copy-block">{{ page.runbook.install }}<button class="copy-action" data-copy-value="{{ page.runbook.install | escape }}">Copy</button></div><p style="margin:12px 0 6px">Official Docker shell</p><div class="copy-block">{{ page.runbook.live }}<button class="copy-action" data-copy-value="{{ page.runbook.live | escape }}">Copy</button></div></section>
+    <a class="button secondary" href="{{ '/' | relative_url }}#{{ page.track }}">← Back to track</a>
+  </aside>
+</section>

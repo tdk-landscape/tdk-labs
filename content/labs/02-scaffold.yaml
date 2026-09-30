@@ -1,0 +1,28 @@
+id: 02-scaffold
+title: Scaffold a project
+track: foundations
+level: beginner
+duration_min: 8
+cli_version: "1.3.80"
+capture_source: local-source
+capture_verified: false
+capture_date: "2026-10-01"
+capture_environment: "Local TDK CLI source 1.3.80; Docker daemon unavailable; generation not captured"
+mode: replay
+source:
+  catalog: [start-here, core-framework-and-releases]
+  docs: https://tdk-landscape.github.io/tdk-website/docs/quickstart/
+terminal:
+  title: tdk · labs · scaffold
+  phase: foundations
+steps:
+  - id: project
+    cmd: tdk project --yes
+    out: ""
+    verified: false
+    explain: Initializes the current directory as a TDK project. Output awaits a successful isolated capture because the local Docker daemon was unavailable.
+    files: []
+runbook:
+  needs: [Node.js 22.12 or newer, Docker for generated container workflows]
+  install: npm install -g @tdk-landscape/tdk-cli-core
+  live: docker run --rm -it --entrypoint sh tdk-landscape/tdk-cli-releases:latest

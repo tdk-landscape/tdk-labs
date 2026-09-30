@@ -1,0 +1,19 @@
+{
+  "name": "tdk-labs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-content.mjs",
+    "sync:catalog": "node scripts/sync-awesome-tdk.mjs",
+    "sync:content": "node scripts/sync-content.mjs",
+    "capture": "node scripts/capture-lab.mjs",
+    "capture:write": "node scripts/capture-lab.mjs --write",
+    "check:capture": "node scripts/check-captures.mjs",
+    "check:links": "node scripts/validate-links.mjs",
+    "build": "bundle exec jekyll build"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "yaml": "^2.8.1"
+  }
+}

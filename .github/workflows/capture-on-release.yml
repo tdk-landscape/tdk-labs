@@ -1,0 +1,37 @@
+name: Refresh lab captures
+on:
+  repository_dispatch:
+    types: [tdk-cli-release]
+  workflow_dispatch:
+    inputs:
+      lab_id:
+        description: Lab ID to recapture, or "all"
+        required: true
+        default: all
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - name: Recapture verified lessons
+        run: |
+          for file in content/labs/*.yaml; do
+            id="$(basename "$file" .yaml)"
+            requested="${{ inputs.lab_id || 'all' }}"
+            if [ "$requested" = all ] || [ "$requested" = "$id" ]; then
+              node scripts/capture-lab.mjs "$id" --write
+            fi
+          done
+      - name: Commit updated captures
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add content/labs
+          git diff --cached --quiet || git commit -m "docs: refresh pinned CLI lab captures"
+          git push

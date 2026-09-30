@@ -1,0 +1,28 @@
+id: 03-backend
+title: Add a backend resource
+track: first-service
+level: beginner
+duration_min: 10
+cli_version: "1.3.80"
+capture_source: local-source
+capture_verified: false
+capture_date: "2026-10-01"
+capture_environment: "Local TDK CLI source 1.3.80; Docker daemon unavailable; generation not captured"
+mode: replay
+source:
+  catalog: [core-framework-and-releases]
+  docs: https://tdk-landscape.github.io/tdk-website/docs/quickstart/
+terminal:
+  title: tdk · labs · backend
+  phase: foundations
+steps:
+  - id: resource-api
+    cmd: tdk resource api --type backend --stack pre-alpha --path services/pre-alpha/api --yes
+    out: ""
+    verified: false
+    explain: Creates a backend resource inside the pre-alpha stack. Exact output and generated files await an isolated CLI capture.
+    files: []
+runbook:
+  needs: [Node.js 22.12 or newer, Docker for generated container workflows]
+  install: npm install -g @tdk-landscape/tdk-cli-core
+  live: docker run --rm -it --entrypoint sh tdk-landscape/tdk-cli-releases:latest

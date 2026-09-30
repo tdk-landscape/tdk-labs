@@ -1,0 +1,29 @@
+title: TDK Labs
+description: Step through TDK commands, inspect what they change, and run them on your machine.
+url: https://tdk-landscape.github.io
+baseurl: /tdk-labs
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+collections:
+  labs:
+    output: true
+    permalink: /labs/:name/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - scripts/
+  - schemas/
+  - content/
+  - spec.md
+  - openspec/
