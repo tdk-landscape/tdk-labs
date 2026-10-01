@@ -16,7 +16,7 @@ module TdkLabs
         data["description"] = data.fetch("steps").first.fetch("explain")
         data["permalink"] = "/labs/#{lab_id}/"
         doc = Jekyll::Document.new(path, site: site, collection: site.collections["labs"])
-        doc.data = data
+        doc.data.merge!(data)
         doc.content = ""
         site.collections["labs"].docs << doc
       end
