@@ -6,6 +6,7 @@
     "validate": "node scripts/validate-content.mjs",
     "sync:catalog": "node scripts/sync-awesome-tdk.mjs",
     "sync:content": "node scripts/sync-content.mjs",
+    "generate:pages": "node scripts/generate-lab-pages.mjs",
     "capture": "node scripts/capture-lab.mjs",
     "capture:write": "node scripts/capture-lab.mjs --write",
     "check:capture": "node scripts/check-captures.mjs",

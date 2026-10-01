@@ -8,10 +8,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-collections:
-  labs:
-    output: true
-    permalink: /labs/:name/
 defaults:
   - scope:
       path: ""
