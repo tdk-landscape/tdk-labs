@@ -39,3 +39,20 @@ layout: default
     <a class="button secondary" href="{{ '/' | relative_url }}#{{ page.track }}">← Back to track</a>
   </aside>
 </section>
+{% if page.troubleshooting %}
+<section class="wrap command-lab info-panel">
+  <div class="eyebrow">Local terminal handoff</div>
+  <h2>{{ page.troubleshooting.title }}</h2>
+  <p>{{ page.troubleshooting.description }}</p>
+  <p class="command-note"><strong>This page does not execute commands.</strong> Copy a command, run it in your own terminal, then paste the output here. The result stays in this browser tab.</p>
+  <div class="command-presets" aria-label="Suggested commands">
+    {% for item in page.troubleshooting.commands %}<button class="filter-button" type="button" data-fill-command="{{ item.command | escape }}">{{ item.label }} · <code>{{ item.command }}</code></button>{% endfor %}
+  </div>
+  <label for="local-command">Command to run</label>
+  <div class="command-entry"><input id="local-command" type="text" autocomplete="off" spellcheck="false" value="tdk doctor --no-ping"><button class="button small" type="button" data-copy-command>Copy command</button></div>
+  <label for="local-output">Paste the terminal output</label>
+  <textarea id="local-output" rows="6" placeholder="Paste output from your terminal here…"></textarea>
+  <button class="button secondary small" type="button" data-show-output>Show output</button>
+  <pre class="command-result" data-command-result aria-live="polite">Your pasted command output will appear here.</pre>
+</section>
+{% endif %}

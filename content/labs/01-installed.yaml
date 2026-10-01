@@ -51,3 +51,15 @@ runbook:
   needs: [Node.js 22.12 or newer, Docker for local stack commands, Tilt for `tdk up`]
   install: npm install -g @tdk-landscape/tdk-cli-core
   live: docker run --rm -it --entrypoint sh tdk-landscape/tdk-cli-releases:latest
+troubleshooting:
+  title: Fix the doctor checks on your machine
+  description: The red Docker and Tilt checks above came from the capture machine, not your computer. Type a command, copy it to your terminal, run it there, then paste its output below to inspect it here.
+  commands:
+    - label: Check Docker
+      command: docker info
+    - label: Check Tilt
+      command: tilt version
+    - label: Check TDK
+      command: tdk --version
+    - label: Rerun doctor
+      command: tdk doctor --no-ping
