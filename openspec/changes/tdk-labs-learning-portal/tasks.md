@@ -1,6 +1,6 @@
 ## 1. Repository and content foundation
 
-- [ ] 1.1 Create the standalone public `tdk-labs` repository with the static-site framework used by `tdk-website` and establish its deployment path.
+- [x] 1.1 Create the standalone public `tdk-labs` repository with the static-site framework used by `tdk-website` and establish its deployment path.
 - [x] 1.2 Define and validate YAML schemas for lab and track content, including replay mode, sources, steps, files, and runbooks.
 - [x] 1.3 Add the track definitions and initial lab records for labs 01–03, leaving captured output unverified until produced by the capture tool.
 
@@ -23,7 +23,7 @@
 
 - [ ] 4.1 Capture and verify the P0 transcript for CLI version/doctor, project scaffold, and backend resource creation at an explicitly pinned release.
 - [ ] 4.2 Verify the P0 acceptance criteria, including replay labeling, catalog links, runbook commands, and reduced-motion behavior.
-- [ ] 4.3 Configure static deployment and publish the P0 portal at the selected URL.
+- [x] 4.3 Configure static deployment and publish the P0 portal at the selected URL.
 
 ## 5. Curriculum expansion
 

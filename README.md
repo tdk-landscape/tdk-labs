@@ -30,6 +30,6 @@ Set `TDK_CAPTURE_IMAGE` to use a compatible image repository. Captures fail if t
 
 ## Publish
 
-GitHub Pages is configured in `.github/workflows/pages.yml` for the `tdk/tdk-labs` repository. Create the public repository in the `tdk` organization, push `main`, and set Pages to **GitHub Actions**. The current GitHub account cannot create organization repositories, so the initial repo creation and push need an org owner or a maintainer with repository creation rights.
+The public repository is [tdk-landscape/tdk-labs](https://github.com/tdk-landscape/tdk-labs). GitHub Pages deploys from `.github/workflows/pages.yml` at <https://tdk-landscape.github.io/tdk-labs/>.
 
 The P0 portal includes labs 01–03 and the catalog. Lab 01 has a local-source capture; project/resource generation captures remain pending until the isolated Docker image is available.
