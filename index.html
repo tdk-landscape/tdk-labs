@@ -22,8 +22,7 @@ description: An ordered path through TDK, with replayable command transcripts an
 <section class="section wrap" id="{{ track.id }}">
   <div class="section-head"><div><div class="eyebrow">Track {{ forloop.index | prepend: '0' }}</div><h2>{{ track.title }}</h2></div><p>{{ track.description }}</p></div>
   <div class="lab-grid">
-  {% assign sorted_labs = site.labs | sort: 'id' %}
-  {% for lab_id in track.labs %}{% for lab in sorted_labs %}{% if lab.lab_id == lab_id %}
+  {% for lab_id in track.labs %}{% for lab in site.data.labs %}{% if lab.lab_id == lab_id %}
     <a class="lab-card" href="{{ lab.url | relative_url }}"><div class="card-meta"><span>{{ lab.lab_id }}</span><span>{{ lab.level }} · {{ lab.duration_min }} MIN</span></div><h3>{{ lab.title }}</h3><p>{{ lab.description }}</p><div class="card-foot">{{ lab.cli_version }} CLI {% if lab.capture_verified == false %}· CAPTURE PENDING{% endif %}</div></a>
   {% endif %}{% endfor %}{% endfor %}
   </div>
