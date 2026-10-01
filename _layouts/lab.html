@@ -2,7 +2,13 @@
 layout: default
 ---
 <section class="hero lab-head wrap">
-  <div class="breadcrumbs"><a href="{{ '/' | relative_url }}">Labs</a> / {{ page.track | replace: '-', ' ' }} / {{ page.lab_id }}</div>
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Labs</a>
+    <span aria-hidden="true">/</span>
+    <a href="{{ '/' | relative_url }}#{{ page.track }}">{{ page.track | replace: '-', ' ' }}</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">{{ page.lab_id }}</span>
+  </nav>
   <div class="eyebrow">{{ page.track | replace: '-', ' ' }} · {{ page.level }} · {{ page.duration_min }} min</div>
   <h1>{{ page.title }}</h1>
   <p>{{ page.steps.first.explain }}</p>
